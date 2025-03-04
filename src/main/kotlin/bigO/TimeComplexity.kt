@@ -27,7 +27,7 @@ class TimeComplexity {
     So it becomes O(2).
     So lets say we have to add 3 numbers then it becomes O(3)
     But it is not in proportion to the input. Instead it depends on the number of operations happening in the functions.
-    So we represent it as O(1) for all such cases.
+    So we represent it as O(1) for all such cases. ---> Constant Time
      */
 
     fun addFirst2Element(intArray: IntArray): Int {
