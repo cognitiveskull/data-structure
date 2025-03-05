@@ -21,4 +21,7 @@ Rules :
    Which could ideally have different lengths. So the Big O for such cases are the addition of the input array sizes
    O(m+n)
 
-4. 
+4. Drop non dominant terms :
+   Lets say we have a function which does 2 operations. 1. It prints all the elements. 2. It prints the all possible pairs of the elements.
+   So for the case 1 the we have O(n) time complexity and for case 2 we have O(n^2) time complexity. Which makes overall time complexity to be
+   O(n+n^2). For such cases we drop non dominant terms like O(n). So our time complexity becomes O(n^2)
